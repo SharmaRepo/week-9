@@ -14,6 +14,7 @@ app.use("/user", userRouter)
 
 //database: mongodDB
 // Connecting to MongoDB
+//Thank you
 mongoose.connect('mongodb+srv://limitxcded:cIVauApcIpcsbWqK@cluster0.pgeqcoj.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "courses" });
 
 app.listen(3000, () => console.log('Server running on port 3000'));
